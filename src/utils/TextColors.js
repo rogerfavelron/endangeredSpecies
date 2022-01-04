@@ -1,4 +1,8 @@
 const Util = (string) => {
+    /*
+    Get a string parameter, find text that needs to be highlighted, split text into spans and push 
+    spans into NodeArray.
+    */
     let NodeArray = [];
     let currentStart;
     let currentEnd;
@@ -9,7 +13,7 @@ const Util = (string) => {
             //next is to be NodeArray
             currentStart = i + 1;
             //currentUnmodified ended
-            console.log("currentUnmodified",currentUnmodified);
+            //console.log("currentUnmodified",currentUnmodified);
             let spanate = <span>{currentUnmodified}</span>
             NodeArray.push(spanate);
             currentUnmodified=""
@@ -19,7 +23,7 @@ const Util = (string) => {
             currentEnd = i - 1;
             let highlight = string.slice(currentStart,currentEnd+1);
             let spanate = <span className="highlight">{highlight}</span>
-            console.log("highlight",highlight);
+           // console.log("highlight",highlight);
             NodeArray.push(spanate);
             currentStart = "";
             currentEnd= "";
@@ -28,14 +32,14 @@ const Util = (string) => {
         else{
             currentUnmodified+=current;
             if(i==string.length-1){
-                console.log("currentUnmodified",currentUnmodified);
+                //console.log("currentUnmodified",currentUnmodified);
                 let spanate = <span>{currentUnmodified}</span>;
                 NodeArray.push(spanate);
                 currentUnmodified=""
             }
         }
     }
-    console.log(NodeArray);
+    //console.log(NodeArray);
     return NodeArray;
 }
 export default Util;

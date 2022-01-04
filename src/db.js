@@ -1,8 +1,21 @@
-//import hornbill from './Assets/hornbill1.png';
+import hornbill from './Assets/hornbill1.png';
+import armadillo from './Assets/armadillo10.png';
+import birdwing from './Assets/birdwing19.png';
+import diademedsifaka from './Assets/dieademedsifaka23.png';
+import fijiiguana from './Assets/fijiiguana8.png';
+import goldenfrog from './Assets/goldenfrog4.png';
+import knysnaseahorse from './Assets/knysnaseahorse9.png';
+import lynx from './Assets/lynx24.png';
+import malayantapir from './Assets/malayantapir22.png';
+import rainbowparrotship from './Assets/rainbowparrotship17.png';
+import sunbear from './Assets/sunbear16.png';
+import threetoedsloth from './Assets/3toedsloth11.png';
+
+
    const animals = {
         "1": {
             "backgroundColor":"#a5a58d",
-            "image": "https://i.ibb.co/93TN7v5/hornbill1.png",
+            "image": hornbill,
             "name": "Helmeted Hornbill",
             "scientificName": "Rhinoplax vigil",
             "range": "Indonesia / Malaysia",
@@ -12,7 +25,7 @@
         },
         "2": {
             "backgroundColor":"#9787ea",
-            "image": "https://i.ibb.co/xFRqVC8/sunbear16.png",
+            "image": sunbear,
             "name": "Sun Bear",
             "scientificName": "Helarctos malayanus",
             "range": "Southeast Asia",
@@ -22,7 +35,7 @@
         },
         "3": {
             "backgroundColor":"#ccc5e3",
-            "image": "https://i.ibb.co/5TqnhB5/rainbowparrotship17.png",
+            "image": rainbowparrotship,
             "name": "Rainbow Parrotfish",
             "scientificName": "Scarus guacamaia",
             "range": "Carribean / Bermuda",
@@ -32,7 +45,7 @@
         },
         "4": {
             "backgroundColor":"#fec54f",
-            "image": "https://i.ibb.co/x7hf5mD/malayantapir22.png",
+            "image": malayantapir,
             "name": "Malayan Tapir",
             "scientificName": "Tapirus indicus",
             "range": "Sumatra / Malaysia / Thailand",
@@ -42,7 +55,7 @@
         },
         "5": {
             "backgroundColor":"#f4c3c5",
-            "image": "https://i.ibb.co/3MPvg00/lynx24.png",
+            "image": lynx,
             "name": "Iberian Lynx",
             "scientificName": "Lynx pardinus",
             "range": "Iberian Peninsula",
@@ -52,7 +65,7 @@
         },
         "6": {
             "backgroundColor":"#a8dadc",
-            "image": "https://i.ibb.co/bFm3f2Y/knysnaseahorse9.png",
+            "image": knysnaseahorse,
             "name": "Knysna Seahorse",
             "scientificName": "Hippocampus capensis",
             "range": "South Africa",
@@ -62,7 +75,7 @@
         },
         "7": {
             "backgroundColor":"#785ebb",
-            "image": "https://i.ibb.co/RTNLWpp/goldenfrog4.png",
+            "image": goldenfrog,
             "name": "Golden Poison Frog",
             "scientificName": "Phyllobates terribilis",
             "range": "Colombia",
@@ -72,7 +85,7 @@
         },
         "8": {
             "backgroundColor":"#f6d860",
-            "image": "https://i.ibb.co/stVZrzF/fijiiguana8.png",
+            "image": fijiiguana,
             "name": "Fiji Crested Iguana",
             "scientificName": "Brachylophus vitiensis ",
             "range": "Fiji",
@@ -82,7 +95,7 @@
         },
         "9": {
             "backgroundColor":"#ff4d6d",
-            "image": "https://i.ibb.co/RCfrMpb/dieademedsifaka23.png",
+            "image": diademedsifaka,
             "name": "Diademed Sifaka",
             "scientificName": "Propithecus diadema",
             "range": "Eastern Madagascar",
@@ -92,7 +105,7 @@
         },
         "10": {
             "backgroundColor":"#74c69d",
-            "image": "https://i.ibb.co/8Pmb7t6/birdwing19.png",
+            "image": birdwing,
             "name": "Wallace's Birdwing",
             "scientificName": "Ornithoptera croesus",
             "range": "Maluku, Indonesia",
@@ -102,7 +115,7 @@
         },
         "11": {
             "backgroundColor":"#adb5bd",
-            "image": "https://i.ibb.co/8BTVS2M/3toedsloth11.png",
+            "image": threetoedsloth,
             "name": "Pygmy 3-toed Sloth",
             "scientificName": "Bradypus pygmaeus",
             "range": "Isla Escudo de Veraguas, Panama",
@@ -112,7 +125,7 @@
         },
         "12": {
             "backgroundColor":"#edb948",
-            "image": "https://i.ibb.co/QCBT6nx/armadillo10.png",
+            "image": armadillo,
             "name": "Brazilian Armadillo",
             "scientificName": "Tolypeutes tricinctus ",
             "range": "Brazil",

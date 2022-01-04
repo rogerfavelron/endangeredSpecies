@@ -8,8 +8,8 @@ import Threat from './Components/Threat';
 const App = () => {
   const [animalNumber, setAnimalNumber] = useState(1);
   const [isThreatOpen, setIsThreatOpen] = useState(false);
-  const currentAnimal = animals[animalNumber]
-  console.log("currentAnimal", currentAnimal);
+  const currentAnimal = animals[animalNumber];
+ // console.log("currentAnimal", currentAnimal);
 
   const openThreat = () =>{
     setIsThreatOpen(true);
@@ -28,7 +28,7 @@ const App = () => {
   }
 
   const nextHandler = () => {
-    console.log("next handler called")
+    //console.log("next handler called")
     if (animalNumber !== 12) {
       setAnimalNumber(animalNumber + 1)
     }
@@ -37,7 +37,7 @@ const App = () => {
     }
   }
   const prevHandler = () => {
-    console.log("prev handler called")
+    //console.log("prev handler called")
     if (animalNumber !== 1) {
       setAnimalNumber(animalNumber - 1)
     }
