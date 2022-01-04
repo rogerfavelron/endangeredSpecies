@@ -31,6 +31,7 @@ I've created a db.js file for animal details. Some text needs to be highlighted 
 so I've stored text needs to be highlighted in this form : !textNeedsToBeHighlighted* . 
 In the utils/TextColors.js, I've created spans , some took highlight class, some didn't.
 
+Note: This project is inspired from http://species-in-pieces.com/. Image and data rights doesn't belong to me.
 
 ## Installation
 
