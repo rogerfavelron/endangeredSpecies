@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/endangeredSpecies/static/css/main.1bac9564.css",
+    "main.js": "/endangeredSpecies/static/js/main.85c8ce8a.js",
+    "static/media/armadillo10.png": "/endangeredSpecies/static/media/armadillo10.839d4be1f5abfb3249c4.png",
+    "static/media/3toedsloth11.png": "/endangeredSpecies/static/media/3toedsloth11.b89f322e7b7203a06ab8.png",
+    "static/media/goldenfrog4.png": "/endangeredSpecies/static/media/goldenfrog4.3ff4acefe629329d751c.png",
+    "static/media/birdwing19.png": "/endangeredSpecies/static/media/birdwing19.c3074efd58b722e8d3c9.png",
+    "static/media/dieademedsifaka23.png": "/endangeredSpecies/static/media/dieademedsifaka23.ca1b27da599598413608.png",
+    "static/media/rainbowparrotship17.png": "/endangeredSpecies/static/media/rainbowparrotship17.4681dd5da9ee6ecfa97a.png",
+    "static/media/malayantapir22.png": "/endangeredSpecies/static/media/malayantapir22.021d6cc76206b7ff7cdc.png",
+    "static/media/fijiiguana8.png": "/endangeredSpecies/static/media/fijiiguana8.cea0c1cbeaaaf8661850.png",
+    "static/media/sunbear16.png": "/endangeredSpecies/static/media/sunbear16.61f4103e31d82e1479f9.png",
+    "static/media/hornbill1.png": "/endangeredSpecies/static/media/hornbill1.2a81bced1af3b6691d1e.png",
+    "static/media/lynx24.png": "/endangeredSpecies/static/media/lynx24.3cf1fa6f17acbbe7998a.png",
+    "static/media/knysnaseahorse9.png": "/endangeredSpecies/static/media/knysnaseahorse9.3ca70d305a5c953e5651.png",
+    "index.html": "/endangeredSpecies/index.html",
+    "main.1bac9564.css.map": "/endangeredSpecies/static/css/main.1bac9564.css.map",
+    "main.85c8ce8a.js.map": "/endangeredSpecies/static/js/main.85c8ce8a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1bac9564.css",
+    "static/js/main.85c8ce8a.js"
+  ]
+}
